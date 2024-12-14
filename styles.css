@@ -1,0 +1,204 @@
+.press-start-2p-regular {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* Global Styles */
+body {
+    font-family: 'Press Start 2P', system-ui;
+    background-color: #1D1E2C;
+    color: #EAEAEA;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 1em;
+    background-image: url('/images/space.png');
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1em;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  #game-area {
+    /* display: none; */
+    text-align: center;
+    width: 100%;
+    flex-grow: 1; /* Ensures the game area takes up remaining space */
+  }
+  
+  #start-screen {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #start-game {
+    background-color: #7E78D2;
+    color: #EAEAEA;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+  }
+  
+  #start-game:hover {
+    background-color: #6CBEED;
+  }
+  
+  #space-shuttle-progress {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-color: url(images/space.png);
+    margin: 20px auto;
+    overflow: hidden;
+  }
+  
+  /* #shuttle {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: #E4572E;
+    border-radius: 50%;
+    bottom: 10px;
+    left: -60px;
+    animation: moveShuttle 3s forwards;
+  } */
+  
+  /* @keyframes moveShuttle {
+    0% {
+      left: -60px;
+    }
+    100% {
+      left: 200px; 
+    }
+  } */
+  
+  .hidden {
+    display: none;
+  }
+  
+  #answers li {
+    margin: 10px 0;
+  }
+  
+  button {
+    background-color: #7E78D2;
+    color: #EAEAEA;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-family: 'Press Start 2P', system-ui;
+  }
+  
+  button:hover {
+    background-color: #E4572E;
+  }
+  
+  /* Footer Styling */
+  footer {
+    text-align: center;
+    background-color: #1D1E2C;
+    color: #EAEAEA;
+    padding: 10px 0;
+    width: 100%;
+  }
+  
+  /* @keyframes launch {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-100vw); }
+  } */
+  @keyframes launch {
+      0% {
+          left: 0;
+      }
+      10% {
+          left: 50%;
+      }
+      100% {
+          left: 10%;
+      }
+  }
+  .shuttle {
+    transform: rotate(90deg);    
+    width: 50px;
+    height: 100px;
+    background: url('images/pixels/RocketWhite.png') no-repeat center/contain;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-100%);
+    animation: launch 10s linear forwards;
+  }
+  
+
+  #quiz-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  button.retro-button {
+    background: #222;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    font-family: 'Press Start 2P', cursive;
+    cursor: pointer;
+  }
+  
+  button.retro-button:hover {
+    background: #444;
+  }
+
+
+/* Style the label to look like buttons */
+.answer-choice {
+  display: block;
+  background-color: #2d89e5; 
+  color: white;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: all 0.3s ease;
+  width: 450px;
+  text-align: center;
+}
+
+/* Style for when the user hovers over an answer */
+.answer-choice:hover {
+  background-color: #1d5fa5; /* Darker blue on hover */
+  transform: scale(1.05); /* Slightly enlarge the answer */
+}
+
+/* Style when the answer is selected */
+input[type="radio"]:checked + .answer-choice {
+  background-color: #4caf50;
+  border-color: #4caf50;
+}
+
+/* Optional: Make it more accessible */
+.answer-choice:focus {
+  outline: 3px solid #ff9800;
+}
+
+  

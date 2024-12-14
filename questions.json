@@ -1,0 +1,182 @@
+[
+    {
+        "question": "How do I do manual testing?",
+        "answers": {
+            "a": "Use automated tools to scan content only",
+            "b": "Follow a checklist to manually inspect content for accessibility",
+            "c": "Check content on a single device"
+        },
+        "correctAnswer": "b"
+    },
+    {
+        "question": "What is WCAG?",
+        "answers": {
+            "a": "Web Content Accessibility Guidelines",
+            "b": "World Consortium for Accessibility Goals",
+            "c": "Web Communication Accessibility Group"
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "What is ARIA?",
+        "answers": {
+            "a": "Accessible Rich Internet Applications",
+            "b": "Assistive Resource Information Attribute",
+            "c": "Alternative Resource for Interactive Accessibility"
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "When is a scan appropriate?",
+        "answers": {
+            "a": "When validating manual accessibility testing results",
+            "b": "When checking usability only",
+            "c": "As a replacement for manual testing"
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "How can I determine if text is real or an image?",
+        "answers": {
+            "a": "Check if you can highlight the text with a cursor",
+            "b": "Inspect the text with a magnifying glass",
+            "c": "Look for shadows around the text"
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "Why is using headings for style a bad practice?",
+        "answers": {
+            "a": "It disrupts screen reader navigation",
+            "b": "It makes the text less readable",
+            "c": "It makes the page harder to load"
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "What format can I have complex tables?",
+        "answers": {
+            "a": "PDF only",
+            "b": "HTML",
+            "c": "Plain text documents"
+        },
+        "correctAnswer": "b"
+    },
+    {
+        "question": "What is the importance of a table caption?",
+        "answers": {
+            "a": "It provides a visual style to the table",
+            "b": "It describes the purpose or content of the table",
+            "c": "It helps in exporting the table to other formats"
+        },
+        "correctAnswer": "b"
+    },
+    {
+        "question": "What is a skip link?",
+        "answers": {
+            "a": "A link to skip to a different website",
+            "b": "A tool for bypassing repetitive content on a page",
+            "c": "A feature that skips broken links"
+        },
+        "correctAnswer": "b"
+    },
+    {
+        "question": "Why should links be visually distinct from the surrounding text?",
+        "answers": {
+            "a": "To improve readability for all users",
+            "b": "To comply with SEO best practices",
+            "c": "To make the page look visually appealing"
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "What is the role of links in menus?",
+        "answers": {
+            "a": "To navigate users between content sections or pages",
+            "b": "To provide descriptive captions for images",
+            "c": "To replace buttons for form submissions"
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "What are key characteristics of an accessible button?",
+        "answers": {
+            "a": "It has a unique style and hover effects",
+            "b": "It is keyboard operable and provides a clear label",
+            "c": "It changes color when clicked"
+        },
+        "correctAnswer": "b"
+    },
+    {
+        "question": "What is appropriate color contrast?",
+        "answers": {
+            "a": "A ratio of 3:1 between text and background",
+            "b": "A ratio of 4.5:1 between text and background",
+            "c": "A ratio of 2:1 between text and background"
+        },
+        "correctAnswer": "b"
+    },
+    {
+        "question": "What is haptic feedback?",
+        "answers": {
+            "a": "Vibrations or tactile sensations to provide feedback",
+            "b": "Audio cues for user interactions",
+            "c": "Visual effects to highlight user actions"
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "What is alt text?",
+        "answers": {
+            "a": "A detailed description of an image",
+            "b": "Text that appears when an image cannot load",
+            "c": "A short description conveying the purpose of an image"
+        },
+        "correctAnswer": "c"
+    },
+    {
+        "question": "How long should alt text be?",
+        "answers": {
+            "a": "As concise as possible while conveying the image's purpose",
+            "b": "At least 50 characters",
+            "c": "A full sentence"
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "What laws govern accessibility requirements for higher education institutions?",
+        "answers": {
+            "a": "Section 504 and Section 508 of the Rehabilitation Act",
+            "b": "FERPA",
+            "c": "HIPAA"
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "What role do faculty members play in creating an accessible learning environment?",
+        "answers": {
+            "a": "They develop accessible content and accommodate students' needs",
+            "b": "They ensure facilities are ADA-compliant",
+            "c": "They rely solely on IT to implement accessibility"
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "What types of assistive technologies support students in higher education?",
+        "answers": {
+            "a": "Screen readers, text-to-speech, and braille displays",
+            "b": "Keyboards and mice",
+            "c": "Digital projectors and speakers"
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "Which ARIA attribute is used to describe the current state of an element?",
+        "answers": {
+          "a": "aria-label",
+          "b": "aria-describedby",
+          "c": "aria-live"
+        },
+        "correctAnswer": "b"
+    }
+]

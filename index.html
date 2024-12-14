@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AstroA11Y</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1>AstroA11Y</h1>
+  </header>
+
+  <main>
+    <div id="game-spot">
+      <h2>Can you make it to Saturn?</h2>
+      <section id="start-area">
+        <button id="start-button">Start The Game</button>
+      </section>
+      <section id="game-fr" class="hidden">
+        <div id="shuttle-prog" class="shuttle-space">
+          <div id="shuttle" class="shuttle"></div>
+        </div>
+        <img id="saturn" src="images/pixels/Saturn.png" alt="saturn">
+      </section>
+      <p id="status-msg" class="hidden">Status message goes here.</p>
+      <div id="question-spot" class="hidden">
+          <p id="question">Question</p>
+          <form id="answers"></form>
+          <button id="next-button">Keep it going</button>
+      </div>
+      <div id="score-streak">
+        <p id="score">Score: 0</p>
+        <p id="streak">Streak: 0</p>
+      </div>
+      <div id="leaderboard-screen" class="hidden">
+        <h2>Leaderboard</h2>
+        <ul id="leaderboard">
+          <li>Emilie - 30</li>
+        </ul>
+        <div id="endGameContainer" class="hidden">
+          <h2>Congratulations! You completed the quiz!</h2>
+          <button id="restart-button">Restart Game</button>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>&copy;Emilie Mickelsen ITM310 2024</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
